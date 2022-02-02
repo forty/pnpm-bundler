@@ -1,0 +1,26 @@
+{
+  "name": "pnpm-bunlde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quentin Barbe",
+  "license": "ISC",
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "@pnpm/config": "^13.12.0",
+    "@pnpm/filter-lockfile": "^5.0.17",
+    "@pnpm/lockfile-file": "^4.2.6",
+    "@pnpm/lockfile-utils": "^3.2.0",
+    "@pnpm/logger": "^4.0.0",
+    "@pnpm/read-package-json": "^5.0.10",
+    "async": "^3.2.3",
+    "dependency-path": "^8.0.10",
+    "npm-packlist": "^3.0.0",
+    "tar-stream": "^2.2.0"
+  }
+}
